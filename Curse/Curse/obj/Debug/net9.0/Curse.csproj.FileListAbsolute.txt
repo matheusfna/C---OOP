@@ -1,0 +1,14 @@
+D:\Udemy C#\C# Completo - Orientada a Objeto + Projetos\Curse\Curse\bin\Debug\net9.0\Curse.exe
+D:\Udemy C#\C# Completo - Orientada a Objeto + Projetos\Curse\Curse\bin\Debug\net9.0\Curse.deps.json
+D:\Udemy C#\C# Completo - Orientada a Objeto + Projetos\Curse\Curse\bin\Debug\net9.0\Curse.runtimeconfig.json
+D:\Udemy C#\C# Completo - Orientada a Objeto + Projetos\Curse\Curse\bin\Debug\net9.0\Curse.dll
+D:\Udemy C#\C# Completo - Orientada a Objeto + Projetos\Curse\Curse\bin\Debug\net9.0\Curse.pdb
+D:\Udemy C#\C# Completo - Orientada a Objeto + Projetos\Curse\Curse\obj\Debug\net9.0\Curse.GeneratedMSBuildEditorConfig.editorconfig
+D:\Udemy C#\C# Completo - Orientada a Objeto + Projetos\Curse\Curse\obj\Debug\net9.0\Curse.AssemblyInfoInputs.cache
+D:\Udemy C#\C# Completo - Orientada a Objeto + Projetos\Curse\Curse\obj\Debug\net9.0\Curse.AssemblyInfo.cs
+D:\Udemy C#\C# Completo - Orientada a Objeto + Projetos\Curse\Curse\obj\Debug\net9.0\Curse.csproj.CoreCompileInputs.cache
+D:\Udemy C#\C# Completo - Orientada a Objeto + Projetos\Curse\Curse\obj\Debug\net9.0\Curse.dll
+D:\Udemy C#\C# Completo - Orientada a Objeto + Projetos\Curse\Curse\obj\Debug\net9.0\refint\Curse.dll
+D:\Udemy C#\C# Completo - Orientada a Objeto + Projetos\Curse\Curse\obj\Debug\net9.0\Curse.pdb
+D:\Udemy C#\C# Completo - Orientada a Objeto + Projetos\Curse\Curse\obj\Debug\net9.0\Curse.genruntimeconfig.cache
+D:\Udemy C#\C# Completo - Orientada a Objeto + Projetos\Curse\Curse\obj\Debug\net9.0\ref\Curse.dll
