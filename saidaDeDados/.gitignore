@@ -1,0 +1,36 @@
+# Visual Studio-specific files
+.vs/
+*.user
+*.suo
+*.csproj.user
+
+# Build output
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+
+# Rider-specific files
+.idea/
+*.sln.iml
+
+# NuGet packages
+packages/
+*.nupkg
+project.lock.json
+
+# Dotnet CLI
+project.assets.json
+
+# Resharper
+_ReSharper*/
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+Desktop.ini
