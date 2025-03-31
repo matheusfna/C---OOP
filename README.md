@@ -14,8 +14,8 @@ Ao longo do curso, são desenvolvidos **projetos práticos**, aplicando os conce
 
 ## 📚 Conteúdos Abordados  
 * Nivelamento
-    - [ ] Introdução a C# e .NET
-    - [ ] Recapitulação de Lógica de Programção susando C#
+    - [x] Introdução a C# e .NET
+    - [x] Recapitulação de Lógica de Programção susando C#
 * Orientação Objeto Básico
     - [ ] Classes, atributos, métodos, membros estáticos
     - [ ] Construtores, palavra this, sobrecarga, encapsulamento
