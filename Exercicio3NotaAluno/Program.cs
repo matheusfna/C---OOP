@@ -22,7 +22,7 @@ namespace Exercicio3NotaAluno {
             Console.WriteLine("NOTA FINAL = " + aluno.NotaFinal().ToString("F2", CultureInfo.InvariantCulture));
 
             //VERIFICACAO SE FOI APROVADO OU REPROVADO
-            if(aluno.NotaFinal() > 60.00) {
+            if(aluno.Aprovado()) {
                 Console.WriteLine("APROVADO");
             } else {
                 Console.WriteLine("REPROVADO");

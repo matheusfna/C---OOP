@@ -11,11 +11,23 @@ namespace Exercicio3NotaAluno {
 
 
         public double NotaFinal() {
-            return Nota1 + Nota2 + Nota3;        
+            return Nota1 + Nota2 + Nota3;
+        }
+
+        public bool Aprovado() {
+            if(NotaFinal() >= 60.0) {
+                return true;
+            } else {
+                return false;
+            }
         }
 
         public double NotaQueFaltou() {
-            return 60 - (Nota1 + Nota2 + Nota3);
+            if(Aprovado()) {
+                return 0.0;
+            } else {
+                return 60.0 - NotaFinal();
+            }
         }
     }
 }
