@@ -17,7 +17,7 @@ Ao longo do curso, são desenvolvidos **projetos práticos**, aplicando os conce
     - [x] Introdução a C# e .NET
     - [x] Recapitulação de Lógica de Programção susando C#
 * Orientação Objeto Básico
-    - [ ] Classes, atributos, métodos, membros estáticos
+    - [x] Classes, atributos, métodos, membros estáticos
     - [ ] Construtores, palavra this, sobrecarga, encapsulamento
     - [ ] Comportamento de memória, arrays, listas
     - [ ] Tópicos especiais em C# - Parte 1
