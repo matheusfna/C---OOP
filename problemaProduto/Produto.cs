@@ -5,8 +5,13 @@ namespace problemaProduto {
 
         //Nomes padrões do C# sendo eles Private: _nomeAtributo
         private string _nome;
-        private double _preco;
-        private int _quantidade;
+        public double Preco {
+            get; private set;
+        }
+        public int Quantidade {
+            get;
+            private set;
+        }
 
         //CONSTRUCTOR
         public Produto() {
@@ -14,8 +19,8 @@ namespace problemaProduto {
 
         public Produto(string nome,double preco,int quantidade) {
             _nome = nome;
-            _preco = preco;
-            _quantidade = quantidade;
+            Preco = preco;
+            Quantidade = quantidade;
         }
 
         //PROPERTIES
@@ -31,33 +36,21 @@ namespace problemaProduto {
             }
         }
 
-        public double Preco {
-            get {
-                return _preco;
-            }
-        }
-
-        public int Quantidade {
-            get {
-                return _quantidade;
-            }
-        }
-
         public double ValorTotalEstoque() {
-            return _preco * _quantidade;
+            return Preco * Quantidade;
         }
 
         public void AdicionarProduto(int quantidade) {
-            _quantidade += quantidade;
+            Quantidade += quantidade;
         }
 
         public void RemoverProduto(int quantidade) {
-            _quantidade -= quantidade;
+            Quantidade -= quantidade;
         }
 
         public override string ToString() {
-            return _nome + ", $ " + _preco.ToString("F2",CultureInfo.InvariantCulture) + " , "
-                + _quantidade + " unidades, Total: $ "
+            return _nome + ", $ " + Preco.ToString("F2",CultureInfo.InvariantCulture) + " , "
+                + Quantidade + " unidades, Total: $ "
                 + ValorTotalEstoque().ToString("F2",CultureInfo.InvariantCulture);
         }
 
