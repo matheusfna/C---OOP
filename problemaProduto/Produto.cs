@@ -5,6 +5,7 @@ namespace problemaProduto {
 
         //Nomes padrões do C# sendo eles Private: _nomeAtributo
         private string _nome;
+        //Propriedades de implementação da AutoProperties
         public double Preco {
             get; private set;
         }
@@ -13,7 +14,7 @@ namespace problemaProduto {
             private set;
         }
 
-        //CONSTRUCTOR
+        //Construtores
         public Produto() {
         }
 
@@ -23,7 +24,7 @@ namespace problemaProduto {
             Quantidade = quantidade;
         }
 
-        //PROPERTIES
+        //Propriedades Customizadas
         public string Nome {
             get {
                 return _nome;
@@ -36,6 +37,7 @@ namespace problemaProduto {
             }
         }
 
+        //Metodos da Classe
         public double ValorTotalEstoque() {
             return Preco * Quantidade;
         }
