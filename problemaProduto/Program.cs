@@ -15,7 +15,7 @@ namespace problemaProduto {
             int quantidade = int.Parse(Console.ReadLine());
 
             //CONSTRUTOR DA CLASSE PRODUTO
-            Produto produto = new Produto(nome,preco,quantidade) {
+            Produto produto = new Produto(nome, preco, quantidade) {
 
             };
 

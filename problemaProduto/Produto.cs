@@ -12,44 +12,53 @@ namespace problemaProduto {
         public Produto() {
         }
 
-        public Produto(string nome, double preco, int quantidade) {
+        public Produto(string nome,double preco,int quantidade) {
             _nome = nome;
             _preco = preco;
             _quantidade = quantidade;
         }
 
-        public string GetNome() {
-            return _nome;
+        //PROPERTIES
+        public string Nome {
+            get {
+                return _nome;
+            }
+            set {
+                if(value != null && value.Length > 1) {
+                    _nome = value;
+                }
+
+            }
         }
 
-        public void SetNome(string nome) {
-            _nome = nome;
+        public double Preco {
+            get {
+                return _preco;
+            }
         }
 
-        public double GetPreco() {
-            return _preco;
-        }
-
-        public int GetQuantidade() {
-            return _quantidade;
+        public int Quantidade {
+            get {
+                return _quantidade;
+            }
         }
 
         public double ValorTotalEstoque() {
-        return _preco * _quantidade;
+            return _preco * _quantidade;
         }
 
         public void AdicionarProduto(int quantidade) {
-        _quantidade += quantidade;
+            _quantidade += quantidade;
         }
 
         public void RemoverProduto(int quantidade) {
-        _quantidade -= quantidade;
+            _quantidade -= quantidade;
         }
 
         public override string ToString() {
-        return _nome + ", $ " + _preco.ToString("F2",CultureInfo.InvariantCulture) + " , "
-            + _quantidade + " unidades, Total: $ " 
-            + ValorTotalEstoque().ToString("F2",CultureInfo.InvariantCulture);
+            return _nome + ", $ " + _preco.ToString("F2",CultureInfo.InvariantCulture) + " , "
+                + _quantidade + " unidades, Total: $ "
+                + ValorTotalEstoque().ToString("F2",CultureInfo.InvariantCulture);
         }
 
 
