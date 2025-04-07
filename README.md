@@ -18,7 +18,7 @@ Ao longo do curso, são desenvolvidos **projetos práticos**, aplicando os conce
     - [x] Recapitulação de Lógica de Programção susando C#
 * Orientação Objeto Básico
     - [x] Classes, atributos, métodos, membros estáticos
-    - [ ] Construtores, palavra this, sobrecarga, encapsulamento
+    - [x] Construtores, palavra this, sobrecarga, encapsulamento
     - [ ] Comportamento de memória, arrays, listas
     - [ ] Tópicos especiais em C# - Parte 1
 * Orientação Objeto Intermediário
