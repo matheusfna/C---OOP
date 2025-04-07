@@ -28,11 +28,9 @@ namespace ExercicioContaBanco {
 
         }
         //Chamada do construtor com 2 argumento utilizando o " : this() "
-        public Conta(int numeroConta,string nomeTitularConta,double saldo) : this(numeroConta,nomeTitularConta) {
-            Saldo = saldo;
-
+        public Conta(int numeroConta,string nomeTitularConta,double depositoInicial) : this(numeroConta,nomeTitularConta) {
+            RealizarDeposito(depositoInicial);
         }
-
 
         //METODOS
         public void RealizarDeposito(double depositoInicial) {
