@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Udemy C#\\C# Completo - Orientada a Objeto + Projetos\\Curse\\Curse\\Curse.csproj",
+      "projectUniqueName": "D:\\Udemy C#\\C# Completo - Orientada a Objeto + Projetos\\C---OOP\\Curse\\Curse.csproj",
       "projectName": "Curse",
-      "projectPath": "D:\\Udemy C#\\C# Completo - Orientada a Objeto + Projetos\\Curse\\Curse\\Curse.csproj",
+      "projectPath": "D:\\Udemy C#\\C# Completo - Orientada a Objeto + Projetos\\C---OOP\\Curse\\Curse.csproj",
       "packagesPath": "C:\\Users\\Matheus de Freitas\\.nuget\\packages\\",
-      "outputPath": "D:\\Udemy C#\\C# Completo - Orientada a Objeto + Projetos\\Curse\\Curse\\obj\\",
+      "outputPath": "D:\\Udemy C#\\C# Completo - Orientada a Objeto + Projetos\\C---OOP\\Curse\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"

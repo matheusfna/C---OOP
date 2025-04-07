@@ -5,33 +5,36 @@ using System.Globalization;
 namespace ExercicioContaBanco {
     internal class Conta {
 
-        private int _numeroConta;
-        private int _taxaBanco = 5;
+        public int NumeroConta {
+            get; private set;
+        }
 
         public string NomeTitularConta {
-            get; private set;
+            get; set;
         }
 
         public double Saldo {
-            get; private set;
+            get; set;
         }
+
+        private int _taxaBanco = 5;
+
 
         //Construtores
-        public Conta() {
-        }
-
-        //Propriedades Customizadas
-
-        public Conta(int numeroConta,string nomeTitularConta,double saldo) {
-            _numeroConta = numeroConta;
+        public Conta(int numeroConta,string nomeTitularConta) {
+            NumeroConta = numeroConta;
             NomeTitularConta = nomeTitularConta;
+
+
+        }
+        //Chamada do construtor com 2 argumento utilizando o " : this() "
+        public Conta(int numeroConta,string nomeTitularConta,double saldo) : this(numeroConta,nomeTitularConta) {
             Saldo = saldo;
-            
+
         }
 
 
         //METODOS
-
         public void RealizarDeposito(double depositoInicial) {
             Saldo = Saldo + depositoInicial;
         }
@@ -41,18 +44,8 @@ namespace ExercicioContaBanco {
         }
 
         public override string ToString() {
-            return "Conta " + _numeroConta + ", Titular: " + NomeTitularConta + ", Saldo: $ "
+            return "Conta " + NumeroConta + ", Titular: " + NomeTitularConta + ", Saldo: $ "
                 + Saldo.ToString("F2",CultureInfo.InvariantCulture);
         }
-
-
-
-        /*
-           - Atributos Privados
-           - Propriedades Autoimplementadas
-           - Construtores
-           - Propriedades customizadas
-           - Outros métodos da classe
-         */
     }
 }
