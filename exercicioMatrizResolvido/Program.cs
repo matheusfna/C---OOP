@@ -10,12 +10,12 @@ namespace exercicioMatrizResolvido {
 
             int[,] mat = new int[n,n];
 
-            //LINHA
+            // LINHA
             for(int i = 0; i < n; i++) {
 
                 string[] values = Console.ReadLine().Split(' ');
 
-                //COLUNAS
+                // COLUNAS
                 for(int j = 0; j < n; j++) {
                     mat[i,j] = int.Parse(values[j]);
                 }
