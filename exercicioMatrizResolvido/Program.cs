@@ -1,6 +1,5 @@
-﻿//using System;
+﻿using System;
 
-using System.Collections.Concurrent;
 
 namespace exercicioMatrizResolvido {
     internal class Program {
