@@ -14,7 +14,7 @@ namespace exercicioMatrizResolvido {
             // LINHA
             for(int i = 0; i < n; i++) {
 
-                string[] values = Console.ReadLine().Split(' '); 
+                string[] values = Console.ReadLine().Split(' ');
 
                 //COLUNAS
                 for(int j = 0; j < n; j++) {
